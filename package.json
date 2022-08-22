@@ -1,0 +1,24 @@
+{
+  "name": "2208_csbs_all_the_cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullsaildevelopment/2208_csbs_all_the_cards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullsaildevelopment/2208_csbs_all_the_cards/issues"
+  },
+  "homepage": "https://github.com/fullsaildevelopment/2208_csbs_all_the_cards#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
